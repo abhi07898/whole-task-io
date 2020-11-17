@@ -1,0 +1,357 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+/*header section desigining */
+header	{
+	padding: 20px;
+	height: 100px;
+
+}
+#logo-name {
+	float: left;
+	font-size: 50px;
+	margin-left: 70px;
+	color: deeppink;
+}
+#nav	{
+	float: left;
+	margin-left: 400px; 	
+	padding: 20px;
+
+}
+#nav a	{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding-right: 15px;
+}
+#nav a:hover	{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	background-color: deeppink;
+	padding: 10px;
+
+}
+.signup-button {
+	float: left;
+	margin-left:250px; 
+	padding: 10px 40px;
+	background-color: deeppink;
+	border:none;
+	border-radius: 30px;
+	color: white;
+}
+#static-image {
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 100px;
+}
+#img{
+	width: 100%;
+	height: 600px;		
+	background-image: url(../img/static-image.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#static-color {
+	background-color: deeppink;
+	opacity: 0.7;		
+} 
+.static-heading {
+	font-size: 50px;`	
+	padding: 20px 5px;
+}
+#static-content  {
+	padding-top: 200px;
+	text-align: center;
+	height: 600px;
+	margin: auto;
+	color: white;
+	
+}
+.learn-more {
+ margin-top: 30px;
+ padding: 10px 60px;	
+ border-radius: 20px;
+
+}
+.learn-more:hover{
+ margin-top: 30px;
+ padding: 10px 60px;	
+ border-radius: 20px;
+ background-color: black;
+ color: white;
+}
+
+/*about styling*/
+#about-content{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;margin-top: 10px;
+	margin-bottom: 100px;
+}
+#text-content {
+	float: left;
+	width: 50%;	
+	padding: 20px;
+
+}
+.span-heading {
+	font-size: 50px;
+	font-weight: 1px;
+	color: deeppink;
+	text-align: center;
+}
+p{
+	line-height: 30px;
+	text-align: justify;
+}
+.about-link {
+
+	padding: 15px 40px;
+	background-color: deeppink;
+	color: white;
+	text-decoration: none;
+	border-radius: 25px;
+}
+#image-content {
+	float: left;
+	width: 400px;
+	height: 400px;
+	border: 5px solid deeppink;
+	border-top-right-radius: 250px;	
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 70px;
+	border-bottom-left-radius: 50px;	
+	float: right;
+	position: relative;
+	margin-top: -550px;
+	margin-right: 120px	
+	}
+.about-image{
+	height:500px;
+	width: 500px;	
+	border-top-right-radius: 250px;	
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 70px;
+	border-bottom-left-radius: 50px;	
+	border: 1px solid black;	
+}
+.button {
+	margin-top: 130px;
+}
+/*features css*/
+#features {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#features-col {
+	overflow: hidden;
+	text-align: center;
+}
+#col1 {
+	width: 33.3%;
+	padding: 50px;
+	float: left;	
+}
+#col2 {
+	width: 33.3%;
+	padding: 50px;
+	float: left;
+}
+#col3 {
+	width: 33.3%;
+	padding: 50px;
+	float: left;	
+}
+.col-span{	
+	font-size: 30px;
+	text-align: center;
+}
+
+/*features structure css*/
+#features-structure {
+	overflow: hidden;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#strct1 {
+	float: left;
+	width: 50%;		
+}
+#strct2 {
+	float: left;
+	width: 50%;		
+}
+#add-border{
+	float: right;
+	width: 400px;
+	height: 400px;
+	border: 5px solid deeppink;
+	border-top-right-radius: 250px;	
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 70px;
+	border-bottom-left-radius: 50px;	
+	margin-top: -450px;
+	position: relative;	
+}
+/*dashboard styling*/
+#dashboard-main{
+	width: 100%;
+	background-color: #eceff4;	
+}
+#dashboard {	
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+.dashboard-image {
+	height: 500px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.faclass {
+	color: deeppink;
+	margin-bottom: 30px;
+}
+/*reviews desigmning */
+#reviews {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#parent-review {
+	overflow: hidden;
+}
+#review1 {
+	float: left;
+	padding: 20px;
+	width: 30%;
+	border : 1px solid pink;
+	box-shadow: 5px 5px deeppink;
+	margin-right: 3%;
+	border-radius: 10px;	
+}
+#review2 {
+	float: left;
+	padding: 20px;
+	width: 30%;
+	border : 1px solid pink;
+	box-shadow: 5px 5px deeppink;
+	margin-right: 3%;
+	border-radius: 10px;
+}
+#review3 {
+	float: left;
+	padding: 20px;
+	width: 30%;
+	border : 1px solid pink;
+	box-shadow: 5px 5px deeppink;
+	border-radius: 10px;	
+}
+.client-pic {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+/* SIGNUP desigining*/
+#signup {
+	width: 100%;
+}
+#signup-div {
+	padding: 40px;
+	background-image: linear-gradient(to right,deeppink,red);
+}
+.signup-span {
+	font-size: 30px;	
+	padding-left: 20px;
+	color: white;
+}
+.signup-link {
+	padding:20px 50px;
+	background-color: white;
+	color: deeppink;
+	border-radius: 30px;
+	margin-left: 300px;
+	border:2px solid deeppink ;
+}
+.signup-link-submit {
+	padding:20px 90px;
+	background-color: deeppink;
+	color: white;
+	border-radius: 30px;
+	border:2px solid deeppink ;
+}
+.signup-link-submit:hover {
+	padding:20px 90px;
+	background-color: deeppink;
+	color: white;
+	border-radius: 30px;
+	border:2px solid deeppink ;
+}
+#signup-img {
+	width: 100%;		
+	background-image: url(../img/signup.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;	
+}
+#signup-color {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+#signup-form {
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+#signup-detail {
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+#form {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	padding-left: 140px; 
+}
+#signup-btn {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*FOOTER desigining*/
+#footer {
+	padding: 40px;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 150px;
+}
+#social-icon {
+	float: left;
+	width: 33.3%;
+}
+#footer-name {
+	float: left;
+	width: 33.3%;
+	color: deeppink;
+}
+#footer-nav-bar {
+	float: left;
+	width: 33.3%;
+}
+#footer-nav-bar a{
+	color: black;
+	text-decoration: none;
+	padding-left: 10px;
+}

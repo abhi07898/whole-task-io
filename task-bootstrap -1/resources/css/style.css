@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+.text-size {
+   font-size: 50px;
+   font-weight:5px;
+   color: deeppink;
+   padding-right:100px;
+   margin-right: 300px;
+
+}
+.div-item{
+    
+}
+.li-class {
+    
+    padding: 5px;
+    color: deeppink;
+    text-decoration: none;
+}
+.li-class-btn {
+    /* margin-left:80px; */
+    background-color: deeppink;
+    color: white;
+    padding : 10px 10px;
+    border-radius: 30px;
+}
+#backimg{
+    width: 100%;  
+    background-image: url(../images/static-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    z-index: 1;
+}
+#backcolor {
+    width: 100%;
+    background-color: deeppink;
+    opacity: 0.9;
+}
+#content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+#signup-img {
+	width: 100%;		
+	background-image: url(../images/signup.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;	
+}
+#signup-color {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+.h1-user-class {
+    color: deeppink;
+    font-family:'Open Sans';
+    font-size: 30px;
+}
+.border-img {
+    border: 5px solid deeppink;
+    width:70%;
+    height: 90%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 70px;
+    margin-top: -350px;
+    position: absolute;
+}
+.img-self {
+    width:90%;
+    height: 40%;
+    padding: 30px ;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 70px;
+    position: relative;
+}
+.dashboard-image {
+    border: 3px solid deeppink;
+    border-end-start-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.grad {
+    background-image: linear-gradient(to right,deeppink, white);
+}
+@media only screen and  (max-width:640px) {
+     .border-img {
+       
+        width:70%!important;
+        height: 20%!important;
+        margin-top: 0px!important;
+        top: -10px!important;
+        
+    } 
+}

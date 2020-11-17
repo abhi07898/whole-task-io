@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide</title>
+</head>
+<body>
+<img src="images/about1.jpeg" id="img-slide" name="slide">
+<input type="button" name="buton" value="prev" id="prev" onclick="prev()">
+<input type="button" name="buton" value="next" id="next" onclick="next()">
+<script>
+	var images = [	    
+	    "images/emp.jpeg",
+	    "images/signup.jpg"
+	];
+	var i=0;
+	function changeImg() {
+	    document.getElementById("img-slide").src = images[i];
+	    if(i< images.length-1) {
+	        i++;
+	    } else {
+	        i=0;
+	    }
+	    setTimeout("changeImg()",10000)
+	}
+	window.onload = changeImg;
+	function prev() {
+       if (i > 0 ) {
+       	changeImg();
+       }
+	}
+	function next() {
+		changeImg();
+	}
+</script>
+</body>
+</html>
